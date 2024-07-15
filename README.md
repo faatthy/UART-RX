@@ -79,7 +79,7 @@ for the receiving device.
 
 ## Specifications
 
-* UART RX receive a UART frame on RX_IN. 
++ UART RX receive a UART frame on RX_IN. 
 * UART_RX support oversampling by 8, 16, 32  
 * RX_IN is high in the IDLE case (No transmission). 
 * PAR_ERR signal is high when the calculated parity bit not equal 
