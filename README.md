@@ -1,4 +1,5 @@
-### Introduction 
+### Introduction  
+
 + There are many serial communication protocol as I2C, UART and SPI. 
 + A Universal Asynchronous Receiver/Transmitter (UART) is a block of 
 circuitry responsible for implementing serial communication. 
@@ -14,11 +15,11 @@ for the receiving device.
 
 ![image](https://github.com/user-attachments/assets/f66d59f6-12db-41c8-ad04-e38e94213fa3)
 
-## Block Interface
+## Block Interface     
 
 ![image](https://github.com/user-attachments/assets/60507853-57a5-45e7-a9c8-c81ac3d34f37)
 
-## Signals Description 
+## Signals Description    
 
 <!DOCTYPE html>
 <html lang="en">
@@ -95,3 +96,30 @@ checking that the frame is received correctly and not corrupted
 * PAR_TYP (Configuration)        
 0: Even parity bit  
 1: Odd parity bit 
+
+##  Expected ReceivedFrames  
+
+1.  Data Frame (in case of Parity is enabled & Parity Type is even)
+ – One start bit (1'b0)
+– Data (LSB first or MSB, 8 bits)
+– Even Parity bit
+– One stop bit
+
+![image](https://github.com/user-attachments/assets/caf32e16-385b-4f68-ab1f-7a39a3f4c064)
+
+## Frames Waveforms
+
+![image](https://github.com/user-attachments/assets/ee587f32-1e06-4098-b894-8ca8128590dc)
+
+## Oversampling 
+
+Oversampling is a technique used in UART (Universal Asynchronous Receiver/Transmitter) to improve the accuracy of data reception by sampling the incoming signal multiple times within a single bit period. This helps to minimize the impact of noise and timing inaccuracies. Here's an in-depth look at oversampling
+
+![image](https://github.com/user-attachments/assets/450c34d8-821f-4a4c-8b40-dd972ae2910e)
+
+## TOP Block Diagram
+
+![image](https://github.com/user-attachments/assets/98e79b17-e43e-45c2-ba5e-48de4709dee6)
+
+
+
