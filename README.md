@@ -99,11 +99,11 @@ checking that the frame is received correctly and not corrupted
 
 ##  Expected ReceivedFrames  
 
-1.  Data Frame (in case of Parity is enabled & Parity Type is even)
- – One start bit (1'b0)
-– Data (LSB first or MSB, 8 bits)
-– Even Parity bit
-– One stop bit
+1.  Data Frame (in case of Parity is enabled & Parity Type is even)  
+ – One start bit (1'b0)  
+– Data (LSB first or MSB, 8 bits)   
+– Even Parity bit   
+– One stop bit   
 
 ![image](https://github.com/user-attachments/assets/caf32e16-385b-4f68-ab1f-7a39a3f4c064)
 
