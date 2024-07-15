@@ -121,5 +121,14 @@ Oversampling is a technique used in UART (Universal Asynchronous Receiver/Transm
 
 ![image](https://github.com/user-attachments/assets/98e79b17-e43e-45c2-ba5e-48de4709dee6)
 
+## Test Cases
+
+![Screenshot 2024-07-14 073648](https://github.com/user-attachments/assets/dd08940f-bef0-4e6a-83ff-64bfc0f732ce)
+
+## Schematic
+
+![Screenshot 2024-07-15 031239](https://github.com/user-attachments/assets/72f7639b-5cf9-4983-9064-e8e77522927f)
+
+
 
 
